@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~
+
+echo MERHABA , PARDUS METIN TANIMA UYGULAMASINA HOŞGELDİNİZ!
+
+/bin/python3 /usr/local/bin/PardusMetinTanima/pardus_metin_tanima.py

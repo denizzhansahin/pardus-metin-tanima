@@ -1,0 +1,39 @@
+#!/bin/bash
+printf "Merhaba, Pardus Metin Tanima uygulamasına hoşgeldiniz.\n"
+
+printf "Bu uygulamayı kurmak için KULLANICI ŞİFRENİZİ yazınız.\n"
+printf "Bu uygulamanın kurulumu sırasında KULLANICI ŞİFRENİZİ tekrar yazmanız istenebilir.\n"
+printf "Bu uygulamayı kurmak için İNTERNET BAĞLANTISI gerekir.\n"
+
+#paket kurulumu
+printf "\n"
+printf "Gerekli paketler kuruluyor.\n"
+
+
+sudo apt-get install python3-pip
+sudo apt-get install python3-pyqt5
+sudo apt-get install tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
+
+
+printf "\n"
+printf "\n"
+
+#kütüphane kurulumu
+printf "\n"
+printf "Gerekli kütüphaneler kuruluyor.\n"
+
+pip3 install --upgrade pip
+pip install pillow pytesseract
+
+printf "\n"
+printf "\n"
+
+#uygulama kurulumu
+printf "\n"
+printf "Pardus Metin Tanıma kuruluyor.\n"
+
+
+sudo dpkg -i pardus-metin-tanima.deb
+
+printf "\n"
+printf "\n"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Pardus Metin Tanıma
+Encoding=UTF-8
+Comment=Desktop Application
+Exec=/usr/local/bin/pardus-metin-tanima
+Icon=/usr/local/bin/logo/pardus_txt_logo.svg
+Terminal=false
+Type=Application
+Categories=Development
